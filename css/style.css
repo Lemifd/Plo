@@ -4062,7 +4062,7 @@ input[type="button"].btn-block {
 
 .alert-info {
   color: #0c5460;
-  background-color: #d1ecf1;
+  background-color: rgb(255, 255, 255,0.5);
   border-color: #bee5eb; }
   .alert-info hr {
     border-top-color: #abdde5; }
@@ -7709,11 +7709,18 @@ h1, h2, h3, h4, h5,
     padding: 30px;
     color: rgba(0, 0, 0, 0.7); }
     .ftco-intro .block-18.color-1 {
-      background: green; }
+      background: white;
+      opacity: 0.8;
+      border: 3px solid green;
+    }
     .ftco-intro .block-18.color-2 {
-      background: rgb(0, 255, 100); }
+      background: white;
+      opacity: 0.8;
+      border: 3px solid green; }
     .ftco-intro .block-18.color-3 {
-      background: rgb(0, 255, 50); }
+      background: white;
+      opacity: 0.8;
+      border: 3px solid green;}
     .ftco-intro .block-18 .text strong {
       font-size: 60px;
       color: #000;
@@ -8272,11 +8279,11 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 20px 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 30px 0; } }
 
 .ftco-bg-dark {
   background: #3c312e; }
