@@ -460,7 +460,21 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+  @media (max-width: 576px) {
+    #brandimg{
+      border-radius: 100px;
+      background-color: white;
+      max-width: 70px;
+      padding: 3px;
+    }
+  }
   @media (min-width: 576px) {
+    #brandimg{
+      border-radius: 100px;
+      background-color: white;
+      max-width: 70px;
+      padding: 3px;
+    }
     .container {
       max-width: 540px; } }
   @media (min-width: 768px) {
