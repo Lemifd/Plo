@@ -26,6 +26,33 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #teams{
+        margin-bottom: 10px;
+      }
+      #teams img{
+        height: 300px;
+      }
+      .tabs {
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+        }
+
+        .tablinks {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 15px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .tabcontent {
+            padding: 20px;
+        }
+    </style>
   </head>
   <body>
     
@@ -143,63 +170,246 @@
   </section>
     <section class="container">
       <h1 style="text-align: center;">Meet the Team</h1>
+      <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'national')">National Team</button>
+        <button class="tablinks" onclick="openTab(event, 'regional')">Regional Team</button>
+    </div>
+    <div id="national" class="tabcontent" >
       <div class="row">
-
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <h2 class="col-12" style="margin: 30px 5px;">National Executives</h2>
+        
+        <div  id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_1.jpg" width="100%" alt="Team Member 1">
           <h3>Abinet Sintayehu</h3>
           <p>Country Director</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_5.jpg"  width="100%" alt="Team Member 2">
           <h3>Mekdes Desalegn</h3>
           <p>Deputy Country Director</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
-          <img src="images/person_4.jpg"  width="100%" alt="Team Member 2">
-          <h3>Natnael Ambaw</h3>
-          <p>Finance Officer</p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_8.jpg"  width="100%" alt="Team Member 2">
           <h3>Lensa Shanee</h3>
           <p>Administrative Secretary</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+          <img src="images/team/finance.jpeg"  width="100%" alt="Team Member 2">
+          <h3>Natnael Abebe</h3>
+          <p>Finance Officer</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href="tel://+251910702133"><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href="mailto://natnael1127@gmail.com"><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href="https://www.linkedin.com/in/natnaelabebe2127"><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
+        </div>
+        
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_2.jpg"  width="100%" alt="Team Member 2">
           <h3>Birhanu Nigusse</h3>
           <p>Head of Programs and Projects</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_8.jpg" width="100%" alt="Team Member 2">
           <h3>Hasset Solomon</h3>
           <p>Head of Legal and Ethics</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_3.jpg"  width="100%" alt="Team Member 2">
           <h3>Destaw Alebachew</h3>
           <p>Head of Media and Communication</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_8.jpg" width="100%" alt="Team Member 2">
           <h3>Elsabet Tassew</h3>
           <p>Head of Research and Development</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
           <img src="images/person_6.jpg" width="100%" alt="Team Member 2">
           <h3>Nahom Abreham</h3>
           <p>Head of Graphics and Brand</p>
+          <div style="display: flex;justify-content: space-around;">
+            <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-">
-          <img src="images/person_7.jpg" width="100%" alt="Team Member 2">
+        <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+          <img src="images/team/nejat.jpeg" width="100%" alt="Team Member 2">
           <h3>Nejat Oumer</h3>
           <p>Head of Pan Africanism</p>
+          <div style="display: flex;justify-content: space-around;">
+            <!-- <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+            <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a> -->
+            <a target="_blank" href="https://www.linkedin.com/in/nejat-oumer-0bb878142"><span style="color: green;" class="icon icon-linkedin"></span></a>
+          </div>
         </div>
-      
+      </div> 
+    </div>
         
-      </div>
-
-      <!-- Add more team members as needed -->
+    <div id="regional" style="display: none;"  class="tabcontent">
+        <div class="row">
+          <h2 class="col-12" style="margin: 30px 5px;">Regional Executives</h2>
+        
+          <div  id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_1.jpg" width="100%" alt="Team Member 1">
+            <h3>Bezawit Habte</h3>
+            <p>Regional Head of Addis Ababa</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/team/lemi2.jpg"  width="100%" alt="Team Member 2">
+            <h3>Lemi Fedasa</h3>
+            <p>Regional Head of Oromia</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href="tel://+251973733950"><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href="mailto://lemifedasa0@gmail.com"><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href="https://www.linkedin.com/in/lemi-fedasa"><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_8.jpg"  width="100%" alt="Team Member 2">
+            <h3>Shimelis Gebreab</h3>
+            <p>Regional Head of Amhara</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/team/kiros.jpeg" width="100%" alt="Team Member 2">
+            <h3>Kiros Tekester</h3>
+            <p>Regional Head of Tigray</p>
+            <div style="display: flex;justify-content: space-around;">
+              <!-- <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a> -->
+              <a target="_blank" href="mainto://kikitekeste872@gmail.com"><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href="https://www.linkedin.com/in/kiros-tekeste-47830828b"><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_7.jpg" width="100%" alt="Team Member 2">
+            <h3>Yeshi Hussen</h3>
+            <p>Regional Head of Sidama</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_7.jpg" width="100%" alt="Team Member 2">
+            <h3>Tamiru Mengst</h3>
+            <p>Regional Head of Dire Dawa</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/team/kass.jpeg"  width="100%" alt="Team Member 2">
+            <h3>Kusse Haile</h3>
+            <p> Regional Head of South West Ethiopia:</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href="tel://+251916698097"><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href="mainto://kussehaile@gmail.com"><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href="https://www.linkedin.com/in/kusse-haile-405335116/"><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_2.jpg"  width="100%" alt="Team Member 2">
+            <h3>Shemsedin Aman</h3>
+            <p>Regional Head of Central Ethiopia</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/team/odero.jpeg" width="100%" alt="Team Member 2">
+            <h3>Okello Oduru</h3>
+            <p>Regional Head of Gambela</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href="tel://+251935155449 "><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href="mailto://ngachopula@gmail.com/"><span style="color: green;" class="icon icon-envelope"></span></a>
+              <!-- <a target="_blank" href="#"><span style="color: green;" class="icon icon-linkedin"></span></a> -->
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_3.jpg"  width="100%" alt="Team Member 2">
+            <h3>Esrael Belay</h3>
+            <p>Regional Head of Benishangul-Gumuz</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_8.jpg" width="100%" alt="Team Member 2">
+            <h3>Eman Kemal</h3>
+            <p>Regional Head of Hareri</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+          <div id="teams" class="col-lg-3 col-md-4 col-sm-6 col-" style="border: 1px solid green;">
+            <img src="images/person_6.jpg" width="100%" alt="Team Member 2">
+            <h3>Mintesinot Keyema</h3>
+            <p>Regional Head of South Ethiopia</p>
+            <div style="display: flex;justify-content: space-around;">
+              <a target="_blank" href=""><span style="color: green;"  class="icon icon-phone"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-envelope"></span></a>
+              <a target="_blank" href=""><span style="color: green;" class="icon icon-linkedin"></span></a>
+            </div>
+          </div>
+         
+        </div>    
+    </div>
     </section>
 
   
@@ -279,6 +489,21 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "inline";
+        evt.currentTarget.className += " active";
+    }
+</script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -297,6 +522,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+ 
+
   </body>
 </html>
