@@ -30,7 +30,10 @@
         margin-bottom: 10px;
       }
       #teams img{
-        height: 300px;
+        height: 250px;
+        width: 80;
+        border-radius: 500px;
+        cursor: pointer;
       }
       .tabs {
             overflow: hidden;
@@ -51,6 +54,27 @@
         .tabcontent {
             padding: 20px;
         }
+
+        .fullscreen {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow: auto;
+    }
+
+    .fullscreen img {
+        display: block;
+        margin: 0 auto;
+        min-width: 300px;
+        max-width: 90%;
+        max-height: 90%;
+        margin-top: 5%;
+    }
     </style>
   </head>
   <body>
@@ -480,6 +504,29 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <script>
+    // Get all the images with the 'teams' class
+    var images = document.querySelectorAll('#teams img');
+
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            var overlay = document.createElement('div');
+            overlay.classList.add('fullscreen');
+            overlay.innerHTML = '<span class="close" style="color: green;background:white; position: absolute; top: 15px; right: 15px; font-size: 30px; cursor: pointer;">&times;</span><img src="' + img.src + '">';
+
+            document.body.appendChild(overlay);
+
+            overlay.style.display = 'block';
+
+            // Click event to close the full-screen image
+            overlay.addEventListener('click', function() {
+                if (event.target.classList.contains('close')) {
+                    overlay.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
   <script>
     function openTab(evt, tabName) {
         var i, tabcontent, tablinks;
